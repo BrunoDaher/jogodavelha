@@ -9,10 +9,12 @@ html, body {
 }
 
 .grid {
-  margin: 1em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;      
+    padding: 10px;
+    border-radius: 7px;
 }
 
 footer > div{

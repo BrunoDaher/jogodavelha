@@ -19,20 +19,20 @@ menu{
 /* ----- carta */
 
 .grid > input {
-    background-color: rgb(26 116 216);
-    border-style: inset;
-    border-color: antiquewhite;
-    flex: 0 0 33%;
-    height: 100px;
-    width: 100px; 
-    font-size: 14vh;
-    text-align: center;
-    cursor: pointer;
-    font-family: cursive;
-    padding-top: 0;
-    padding-bottom: 40px;
-    border-radius: 10px;
-    transform: rotateY(-180deg);
+  background-color: rgb(26 116 216);  
+  border: none;
+  flex: 0 0 33%;
+  height: 100px;
+  width: 100px;
+  font-size: 14vh;
+  text-align: center;
+  cursor: pointer;
+  font-family: cursive;
+  padding-top: 0;
+  padding-bottom: 40px;
+  margin: 0.05%;
+  border-radius: 10px;
+  transform: rotateY(-180deg);
   }
   
   .locked,.locked:disabled{
