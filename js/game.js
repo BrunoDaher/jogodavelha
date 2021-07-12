@@ -82,11 +82,11 @@ let somaMarcas = 0;
         lock(true);        
         let msg = document.querySelector('#message');
         msg.classList.add('m0');
-        msg.append('FIM');
-        
+        msg.append('Replay');
+
         setTimeout(
             ()=>{ 
-                msg.innerText = 'replay'; 
+                //msg.innerText = 'replay'; 
                 msg.onclick = ()=>{ location.reload() }
         },700)
         //console.log("FIM");
