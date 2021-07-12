@@ -171,5 +171,6 @@ let somaMarcas = 0;
             return false;
           }
         }
+        
         return true;
       };
