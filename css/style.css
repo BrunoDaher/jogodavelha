@@ -1,0 +1,76 @@
+@import url("themes.css");
+@import url("layout.css");
+
+menu{
+    display: flex;
+}
+
+.colapse{
+    justify-content: space-between;
+    margin: 3px;
+    padding: 3px;
+    align-items: center; 
+}
+
+
+/* ----- carta */
+
+.grid > input {
+    background-color: blueviolet;
+    border-style: inset;
+    border-color: antiquewhite;
+    flex: 0 0 33%;
+    height: 100px;
+    width: 100px;
+    font-size: 21vh;
+    text-align: center;
+    cursor: pointer;
+    font-family: cursive;
+    padding-top: 0;
+    padding-bottom: 40px;
+    border-radius: 10px;
+  }
+  
+  .locked,.locked:disabled{
+    background-color:rgb(42, 14, 67);
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+    transform: rotateY(18   0deg);
+    transform-style: preserve-3d;
+    transition: all 0.8s;
+  }
+
+  a , a:hover{
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 1.5rem;
+  }
+
+  .m0{
+    margin-left: 0em !important; 
+    transition: all 1.4s;
+  }
+
+  #message {
+    margin-left: -55em;
+    font-family: cursive;
+    font-weight: 900;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(48, 12, 71);    
+    width: 100%;    
+    background-color: #000000f5;
+    padding: 3em;
+    position: fixed;
+    top: -13px;
+    height: 59vh;
+    transition: all 1.4s;
+  }
+
+  .reset{
+    font-family: cursive;
+    font-weight: 900;
+    margin: 10vh;    
+    font-size: 3em;
+    color: rgb(48, 12, 71);
+  }
