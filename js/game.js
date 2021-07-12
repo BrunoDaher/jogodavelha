@@ -109,6 +109,7 @@ let somaMarcas = 0;
         let random = pos[Math.floor(Math.random()*pos.length)]
         let id = document.getElementById(random);
         id.value='o';
+        id.classList.add('advColor')
         marca(id);
         //desbloqueia
         lock(false);
@@ -171,6 +172,6 @@ let somaMarcas = 0;
             return false;
           }
         }
-        
+
         return true;
       };

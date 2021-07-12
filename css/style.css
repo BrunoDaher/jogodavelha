@@ -12,11 +12,14 @@ menu{
     align-items: center; 
 }
 
+.advColor{
+  background-color: rgb(38, 179, 57) !important;
+}
 
 /* ----- carta */
 
 .grid > input {
-    background-color: rgb(51, 44, 138);
+    background-color: rgb(26 116 216);
     border-style: inset;
     border-color: antiquewhite;
     flex: 0 0 33%;
@@ -32,7 +35,7 @@ menu{
   }
   
   .locked,.locked:disabled{
-    background-color:rgb(47, 77, 110);
+    background-color:rgb(26 116 216);
     cursor: pointer;
     color:rgb(255, 255, 255);
     transform: rotateY(18   0deg);
