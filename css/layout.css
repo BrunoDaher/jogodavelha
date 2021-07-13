@@ -32,3 +32,24 @@ footer {
     justify-content: space-between;
     align-items: center;
 }
+
+@media (min-width: 750px){
+    .grid > input{
+        
+    }
+}
+
+@media (max-width: 320px){
+    .grid > input{
+        height: 12vh !important;
+    }
+}
+
+@media (min-width: 800px){
+    .grid > input{        
+        height: 25vh !important;
+    }
+    .grid{
+        width:65%;
+    }
+}

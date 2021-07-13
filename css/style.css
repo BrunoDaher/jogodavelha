@@ -22,8 +22,8 @@ menu{
   background-color: rgb(26 116 216);  
   border: none;
   flex: 0 0 33%;
-  height: 100px;
-  width: 100px;
+  height: 15vh;
+  width: 15vw;
   font-size: 14vh;
   text-align: center;
   cursor: pointer;
@@ -52,10 +52,15 @@ menu{
 
   .m0{
     margin-left: 0em !important; 
+    z-index: 0 !important;
+    cursor: pointer;
     transition: all 0.8s;
   }
 
+  
+
   #message {
+    z-index: -1;
     margin-left: -55em;
     font-family: cursive;
     font-weight: 900;
@@ -70,7 +75,7 @@ menu{
     transition: margin-left 0.8s;
   }
 
-  .reset{
+  .reset , .m0:hover{
     font-family: cursive;
     font-weight: 900;
     margin: 10vh;    

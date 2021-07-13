@@ -89,13 +89,16 @@ const marca = function(element){
 const encerra = function(){
     lock(true);        
     let msg = document.querySelector('#message');
-    msg.classList.add('m0');
-    msg.append('Replay');
+    msg.classList.toggle('m0');
+    msg.innerText = 'Replay';
 
     setTimeout(
         ()=>{ 
             //msg.innerText = 'replay'; 
-            msg.onclick = ()=>{ location.reload() }
+            msg.onclick = ()=>{
+                 location.reload();
+                 //msg.classList.toggle('m0');
+            }
     },700);    
 }
 
